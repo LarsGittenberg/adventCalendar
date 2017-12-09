@@ -10,10 +10,23 @@ body {
 	margin-right: auto;
 	display: block;
 	font-family: 'Leckerli One', cursive;
+}
+
+.xmasify {
 	background-image: url('images/yellow_dots_stagger.png');
 	background-size: 35px;
 	background-repeat: repeat;
 	background-color: forestgreen;
+}
+
+button.xmasify {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 24px;
+    background-color: red;
+    color: white;
 }
 
 h1.greeting {
@@ -21,7 +34,7 @@ h1.greeting {
 	bottom: 25px;
 	color: gold;
 	font-size: 3.2em;
-	display: block;
+	display: none;
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 200;
@@ -29,7 +42,10 @@ h1.greeting {
 	text-align: center;
     left: 50%;
     transform: translateX(-50%);
+}
 
+.visible {
+	display: block!important;
 }
 
 .img-container {
@@ -56,6 +72,7 @@ img {
 
 img.hat-overlay {
 	z-index: 100;
+	display: none;
 }
 
 img.kid-image {

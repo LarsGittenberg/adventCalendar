@@ -2,18 +2,22 @@
 
 // xmasify function
 function xmasify() {
-
-}
+	// find target h1 greeting
+	var targetH1 = $('body').find('h1');
+	var targetImg = $('body').find('img#hat')
+	targetH1.toggleClass('visible');
+	targetImg.toggleClass('visible');
+	var targetBody = $('body').toggleClass('xmasify');
+}// end xmasify
 
 
 // changeKid function triggered by double click
 function changeKid() {
-	console.log("change kid active with double click")
 	//get target img
 	var targetImg = $('body').find('img.kid-image');
 	// get id of targetImg
 	var targetImgId = targetImg.attr('id');
-	alert(targetImgId);
+	// if img id is ella, change to maco, if maco change to mio, else change to ella
 	if (targetImgId === "ella") {
 		targetImg.attr('src', 'images/maco_advent_image.jpg');
 		targetImg.attr('id', 'maco');
@@ -24,14 +28,14 @@ function changeKid() {
 		targetImg.attr('src', 'images/ella_advent_image.jpg');
 		targetImg.attr('id', 'ella');
 	}
-}
+}// end changeKid
 
 
 /*event listeners*/
 
 // code that listens to user click, when user clicks, make hat + greeting visible
-$('body').on('click', xmasify);
+$('button.xmasify').on('click', xmasify);
 
 
 // code that listens to double click, when user double clicks, change kid image
-$('body').on('dblclick', changeKid);
+$('img').on('click', changeKid);
