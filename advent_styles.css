@@ -6,7 +6,7 @@
 
 body {
 	width: 1280px;
-	margin-left: auto;
+	margin-lett: auto;
 	margin-right: auto;
 	display: block;
 	font-family: 'Leckerli One', cursive;
@@ -27,6 +27,11 @@ button.xmasify {
     font-size: 24px;
     background-color: red;
     color: white;
+    background-image: none;
+    box-shadow: 5px 5px 5px #0000003d;
+    padding: 10px;
+    border-radius: 3px 3px;
+
 }
 
 h1.greeting {
@@ -63,7 +68,7 @@ h1.greeting {
 }
 
 img {
-	width: 100%;
+	width: 50%;
 	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
