@@ -1,0 +1,70 @@
+/* css style rules - to style how the advent page looks*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-family: 'Leckerli One', cursive;
+	background-image: url('images/yellow_dots_stagger.png');
+	background-size: 35px;
+	background-repeat: repeat;
+	background-color: forestgreen;
+}
+
+h1.greeting {
+	position: absolute;
+	bottom: 25px;
+	color: gold;
+	font-size: 3.2em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 200;
+	width: 400px;
+	text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.img-container {
+	width: 100%;
+	max-width: 410px;
+	height: 610px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 2px;
+	border: 1px solid white;
+	border-radius: 3px 3px;
+	position: relative;
+
+}
+
+img {
+	width: 100%;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+img.hat-overlay {
+	z-index: 100;
+}
+
+img.kid-image {
+	z-index: 10;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
