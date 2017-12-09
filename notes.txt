@@ -1,0 +1,43 @@
+Tasks:
+A
+1. let's take a look at our image files. what do they end with?
+- Google what a jpg file is
+- google what a png file is
+
+2. note the names of the files, write the full name down.
+
+3. Let's look at our html file. it should be called advent_content.html. This is where the content of anything we view on a web browser will be.
+images
+words
+movies
+videos
+
+the content in html files is in html code.
+can you guess the code for an image? hint, its an acronym/shorthand for the word "image", and it's enclosed in the tags <>.
+so the code looks like
+<image> but not quite...
+write down what you think the code for an image is, and write down the lines where that image code is.
+
+4. any idea what "src" means?
+what do I mean by usa/seattle/sandpoint/greenHouse/kitchen/papa
+?
+
+B
+Let's explore the css file.
+CSS files: This is where the code for styling a web page is.
+let's change a style
+
+C
+Let's explore logic and function!
+a .js file is where the functional programs lie.
+What is a functional program - ask me!!!!
+
+I coded two programs in this file...
+find the two - or at least guess what the names of the two functions I coded are...hint...they're called "functions".!!!
+
+
+
+
+
+
+
