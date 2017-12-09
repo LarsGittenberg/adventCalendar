@@ -22,7 +22,7 @@ function changeKid() {
 		targetImg.attr('src', 'images/maco_advent_image.jpg');
 		targetImg.attr('id', 'maco');
 	} else if (targetImgId === 'maco') {
-		targetImg.attr('src', 'images/mio_advent_image.jpg');
+		targetImg.attr('src', 'images/mioooooo_advent_image.jpg');
 		targetImg.attr('id', 'mio');
 	} else {
 		targetImg.attr('src', 'images/ella_advent_image.jpg');
