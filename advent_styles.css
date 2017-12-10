@@ -6,7 +6,7 @@
 
 body {
 	width: 1280px;
-	margin-lett: auto;
+	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	font-family: 'Leckerli One', cursive;
@@ -68,7 +68,7 @@ h1.greeting {
 }
 
 img {
-	width: 50%;
+	width: 100%;
 	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
